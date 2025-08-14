@@ -28,7 +28,7 @@ It is designed as an educational example to help security students and researche
 
 ## Example Usage
 ```bash
-python3 arp_spoof.py -t 192.168.1.10 -g 192.168.1.1 -i eth0
+python3 fmitm.py -t 192.168.1.10 -g 192.168.1.1 -i eth0
 ```
 
 ## Architecture & Flow
