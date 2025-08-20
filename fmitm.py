@@ -2,7 +2,7 @@
 import os
 import time
 import argparse
-from scapy.all import ARP, Ether, sendp, getmacbyip, conf
+from scapy.all import ARP, Ether, sendp, getmacbyip, conf, srp
 
 def enable_ip_forwarding():
     """Enable IP forwarding on the attacking machine"""
